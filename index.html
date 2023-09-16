@@ -5,24 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <main>
         <header class="header-container">
             <h1>Yure Rafael</h1>
             <nav>
-                <a class="link-navigation">Habilidades</a>
-                <a class="link-navigation">Portfólio</a>
-                <a class="link-navigation">Experiências</a>
+                <a class="link-navigation" onclick="clickSrollTo('abilities-container')">Habilidades</a>
+                <a class="link-navigation" onclick="clickSrollTo('projects-container')">Portfólio</a>
+                <a class="link-navigation" onclick="clickSrollTo('experiences-container')">Experiências</a>
             </nav>
-            <button type="button">Contato</button>
+            <button type="button" onclick="clickSrollTo('contact')">Contato</button>
         </header>
         <article class="apresentation-container">
             <section class="texts-container">
                 <h1>Olá, muito prazer! </h1>
                 <h2>Sou o Yure Rafael<span>.</span> </h2>
                 <p>Programador Novato, com foco em desenvolvimento web em React Js, atuando em mais de 10 projetos.</p>
-                <button type="button">Entrar em contato</button>
+                <button type="button" onclick="clickSrollTo('contact')">Entrar em contato</button>
                 <div class="socials">
                     <img src="./assets/logo-github.svg" alt="github">
                     <img src="./assets/logo-linkedin.svg" alt="linkedin">
@@ -73,11 +74,101 @@
                 </div>
             </section>
         </article>
-        <article class="projects-container">
-            <h1>Portfólio</h1>
-            <h2>de projetos.</h2>
-            <section></section>
+        <article class="projects-container" id="projects-container">
+            <section>
+                <h1>Portfólio</h1>
+                <h2>de projetos.</h2>
+            </section>
+            <section class="projects">
+                <div class="project-card">
+                    <img src="./assets/instagram-clone.png" alt="instagram-img">
+                    <div>
+                        <h4>Clone Instagram</h4>
+                        <p>Aplicação em React.js e Javascript + SCSS</p>
+                    </div>
+                    <div class="reference-project">
+                        <img src="./assets/material-symbols_link.svg" alt="link-svg">
+                        <img src="./assets/logo-github.svg" alt="github-svg">
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="./assets/FORMIGA-LANCHES.jpg" alt="formiga-img">
+                    <div>
+                        <h4>Landing Page</h4>
+                        <p>Aplicação em React.js</p>
+                    </div>
+                    <div class="reference-project">
+                        <img src="./assets/material-symbols_link.svg" alt="link-svg">
+                        <img src="./assets/logo-github.svg" alt="github-svg">
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="./assets/to-do-list.jpeg" alt="to-do-img">
+                    <div>
+                        <h4>To Do List</h4>
+                        <p>Aplicação em React.js + Firebase</p>
+                    </div>
+                    <div class="reference-project">
+                        <img src="./assets/material-symbols_link.svg" alt="link-svg">
+                        <img src="./assets/logo-github.svg" alt="github-svg">
+                    </div>
+                </div>
+            </section>
+        </article>
+        <article class="experiences-container" id="experiences-container">
+            <section>
+                <h1>Experiências</h1>
+                <h2>profissionais.</h2>
+            </section>
+            <section class="experiences">
+                <div class="exp">
+                    <img src="./assets/Rectangle 1.svg" alt="emoji-img">
+                    <div class="info-exeperience">
+                        <h1>Freelancer - Desenvolvedor Front-End</h1>
+                        <h4>Loja do Fulano - Janeiro até Abril de 2023</h4>
+                        <p>Desenvolvedor web responsável por criar aplicações de larga escala para os clientes
+                            utilizando principalmente a tecnologia React.js.
+                        </p>
+                    </div>
+                </div>
+                <div class="exp">
+                    <img src="./assets/Rectangle 1.svg" alt="emoji-img">
+                    <div class="info-exeperience">
+                        <h1>Freelancer - Desenvolvedor Front-End</h1>
+                        <h4>Del Plata - Abril até Junho de 2023</h4>
+                        <p>Desenvolvedor web responsável por criar aplicações de larga escala para os clientes
+                            utilizando principalmente a tecnologia React.js.
+                        </p>
+                    </div>
+                </div>
+            </section>  
+        </article>
+        <article class="canHelp-container" id="contact">
+            <section class="title">
+                <h1>Como posso</h1>
+                <h2>te ajudar?</h2>
+            </section>
+            <section class="info">
+                <p>Estou à disposição para ajudar o seu projeto ou sua empresa.</p>
+                <div>
+                    <img src="./assets/mail-outline.svg" alt="mail-svg">
+                    <p>rafaelyure53@gmail.com</p>
+                </div>
+                <div>
+                    <img src="./assets/Vector.svg" alt="phone-svg">
+                    <p>(74) 98859-4216</p>
+                </div>
+            </section>  
         </article>
     </main>
+    <footer class="footer-container">
+        <h1>Yure Rafael</h1>
+        <div class="socials">
+            <img src="./assets/logo-github.svg" alt="github-svg">
+            <img src="./assets/logo-linkedin.svg" alt="linkedin-svg">
+            <img src="./assets/logo-youtube.svg" alt="youtube-svg">
+            <img src="./assets/logo-instagram.svg" alt="instagram-svg">
+        </div>
+    </footer>
 </body>
 </html>
