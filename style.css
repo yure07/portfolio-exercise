@@ -9,6 +9,7 @@
 body{
     font-family: sans-serif;
     background-color: #fefefe;
+    overflow-x: hidden;
 }
 
 main{
@@ -123,7 +124,8 @@ button{
 
 .abilities-container h3{
     font-size: 64px;
-    color: #005eff;}
+    color: #005eff;
+}
 
 .skills-container{
     display: grid;
@@ -350,7 +352,7 @@ button{
 
 .footer-container{
     display: flex;
-    width: 1216px;
+    width: 100vw;
     height: 156px;
     align-items: center;
     margin: 69px auto 0;

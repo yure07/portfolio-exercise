@@ -1,0 +1,250 @@
+@media (max-width: 450px){
+    .header-container{
+        width: 90vw;
+        margin-top: 16px ;
+    }
+
+    .header-container h1{
+        font-size: 24px;
+    }
+    
+    .header-container a{
+        display: none;
+    }
+
+    .header-container button{
+        height: 48px;
+        padding: 0 12px;
+    }
+
+    .apresentation-container{
+        flex-direction: column-reverse;
+        width: 80vw;
+        max-width: 80vw;
+        margin-top: 24px;
+    }
+    
+    .apresentation-container > .img-mine{
+        width: 220px;
+        height: 220px;
+        margin-bottom: 24px;
+    }
+
+    .texts-container{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        text-align: center;
+        align-items: center;
+    }
+
+    .texts-container h1, h2{
+        font-size: 32px;
+    }
+
+    .texts-container button{
+        margin-top: 24px;
+    }
+
+    .socials{
+        width: 80vw;
+        margin: 24px auto 0;
+        justify-content: space-between;
+    }
+    
+    .socials img{
+        margin-right: 0;
+    }
+
+    .abilities-container{
+        width: 80vw;
+        height: 1200px;
+    }
+    
+    .abilities-container h1, h3{
+        font-size: 32px;
+    }
+    
+    .abilities-container h3{
+        font-size: 40px;
+    }
+
+    .skills-container{
+        align-self: center;
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+        gap: 10px;
+    }
+    
+    .skill-card{
+        width: 45vw;
+        height: 70vh;
+    }
+
+    .symbol{
+        width: 60px;
+        height: 60px;
+    }
+    
+    .symbol img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .skill-card h4{
+        font-size: 16px;
+    }
+    
+    .skill-card p{
+        font-size: 14px;
+        width: 80%;
+    }
+    
+    .skill-card ul{
+        width: 80px;
+        padding: 0 40px;
+    }
+    
+    .skill-card li{
+        font-size: 16px;
+        width: 100px;
+        text-align: start;
+    }
+
+    .projects-container{
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        margin-top: 104px;
+        height: 900px;
+    }
+    
+    .projects-container h1{
+        font-size: 32px;
+    }
+    
+    .projects-container h2{
+        font-size: 40px;
+    }
+
+    .projects{
+        display: flex;
+        flex-direction: column;
+        height: 80%;
+    }
+
+    .project-card{
+        width: 100%;
+        height: 220px;
+    }
+    
+    .project-card img{
+        width: 200px;
+        height: 100px;
+    }
+    
+    .project-card h4{
+        font-size: 20px;
+        font-family: 'Montserrat';
+    }
+    
+    .project-card p{
+        font-size: 14px;
+        margin-top: 12px;
+    }
+
+    .reference-project img{
+        width: 24px;
+        height: 24px;
+        margin-right: 16px;
+        cursor: pointer;
+    }
+
+    .experiences-container{
+        width: 90vw;
+        height: 700px;
+    }
+
+    .experiences-container h1{
+        font-size: 32px;
+    }
+    
+    .experiences-container h2{
+        font-size: 40px;
+    }
+
+    .experiences{
+        margin-top: 24px;
+    }
+    
+    .exp{
+        align-self: center;
+        align-items: center;
+        width: 70%;
+        height: 220px;
+    }
+    
+    .exp img{
+        align-self: flex-start;
+    }
+    
+    .info-exeperience h1{
+        font-size: 18px;
+    }
+
+    .info-exeperience h4{
+        margin-top: 8px;
+    }
+    
+    .info-exeperience p{
+        margin-top: 12px;
+    }
+
+    .canHelp-container{
+        width: 80vw;
+        height: 40vh;
+        margin-top: 16px;
+    }
+    
+    .title h1{
+        font-size: 32px;
+    }
+    
+    .title h2{
+        font-size: 40px;
+    }
+
+    .info > div{
+        margin-top: 18px;
+    }
+
+    .info > p{
+        margin: 0 auto;
+    }
+
+    .footer-container{
+        border: 1px solid blue;
+        width: 100vw;
+        margin: 32px auto 0;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .footer-container h1{
+        font-size: 32px;
+    }
+
+    .footer-container .socials-footer{
+        justify-content: space-between;
+        align-self: center;
+        flex-direction: column;
+        width: 32px;
+        height: 90%;
+    }
+    
+    .footer-container img{
+        width: 30px;
+        height: 30px;
+        margin-right: 0px;
+    }
+}
