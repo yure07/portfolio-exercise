@@ -115,6 +115,8 @@ button{
     margin-top: 88px;
     width: 1008px;
     height: 960px;
+    opacity: 0;
+    transition: all 2s;
 }
 
 .abilities-container h1, h3{
@@ -200,6 +202,8 @@ button{
     margin-top: 48px;
     width: 1216px;
     height: 605px;
+    opacity: 0;
+    transition: all 2s;
 }
 
 .projects-container h1{
@@ -263,6 +267,8 @@ button{
     width: 1216px;
     height: 570px;
     margin-top: 65px;
+    opacity: 0;
+    transition: all 2s;
 }
 
 .experiences-container h1{
